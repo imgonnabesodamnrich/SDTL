@@ -3,7 +3,9 @@
 > **Deep Transfer Learning for Battery SOH Estimation**
 >
 > **Paper Title:** *Deep transfer learning enabled online state-of-health estimation of lithium-ion batteries under small samples across different cathode materials, ambient temperature and charge-discharge protocols*
+>
 > **Journal:** *Journal of Power Sources*, Vol. 650, 2025, 237503
+>
 > **DOI:** [10.1016/j.jpowsour.2025.237503](https://doi.org/10.1016/j.jpowsour.2025.237503)
 
 [![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.jpowsour.2025.237503-007ec6)](https://doi.org/10.1016/j.jpowsour.2025.237503)
