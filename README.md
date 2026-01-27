@@ -1,5 +1,15 @@
 # 锂电池健康状态在线估算论文笔记——自注意力深度迁移学习（Self-attention based Deep Transfer Learning, SDTL）
 
+> **Deep Transfer Learning for Battery SOH Estimation**
+>
+> **Paper Title:** *Deep transfer learning enabled online state-of-health estimation of lithium-ion batteries under small samples across different cathode materials, ambient temperature and charge-discharge protocols*
+> **Journal:** *Journal of Power Sources*, Vol. 650, 2025, 237503
+> **DOI:** [10.1016/j.jpowsour.2025.237503](https://doi.org/10.1016/j.jpowsour.2025.237503)
+
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.jpowsour.2025.237503-007ec6)](https://doi.org/10.1016/j.jpowsour.2025.237503)
+[![Status](https://img.shields.io/badge/Status-Published-44cc11)](#)
+[![Topic](https://img.shields.io/badge/Topic-Transfer%20Learning-ff8c00)](#)
+
 ## 目录
 
 1. [背景与动机](#1-背景与动机)
