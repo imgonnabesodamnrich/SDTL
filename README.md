@@ -23,6 +23,7 @@
 4. [实验设计与多源数据集](#4-实验设计与多源数据集)
 5. [性能评估与结果分析](#5-性能评估与结果分析)
 6. [结论与工程启示](#6-结论与工程启示)
+- [论文链接](#论文链接)
 
 ---
 
@@ -34,7 +35,7 @@
 *   **初期数据稀缺性**：新电池投入使用时，可用于训练的退化数据极少。传统深度学习模型在数据量不足（小样本）时极易发生过拟合。
 *   **领域偏差（Domain Shift）**：电池的退化规律会随正极材料（如NCM对比NCA）、环境温度（高温对比低温）及充放电协议的变化而改变。在一个场景下训练好的模型，直接应用到另一场景时精度会大幅下降。
 
-## 3. SDTL技术架构解析
+## 3. SDTL 技术架构解析
 论文提出的自注意力深度迁移学习（SDTL）框架通过“通用退化知识提取 + 目标场景快速适配”的思路解决了上述挑战。
 
 ### 3.1 健康指标（HIs）的提取与筛选
@@ -72,9 +73,8 @@
 2.  **跨域通用**：通过迁移学习有效消除了材料体系与环境温差带来的模型偏离。
 3.  **计算友好**：微调过程仅需更新少量参数，适合在算力受限的嵌入式BMS系统中进行在线更新。
 
----
 
-**参考文献：**
+## 论文链接
 Li, X., Zhao, M., et al. "Deep transfer learning enabled online state-of-health estimation of lithium-ion batteries under small samples across different cathode materials, ambient temperature and charge-discharge protocols." *Journal of Power Sources* 650 (2025): 237503.
 
 **DOI:** [10.1016/j.jpowsour.2025.237503](https://doi.org/10.1016/j.jpowsour.2025.237503)
